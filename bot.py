@@ -8,6 +8,9 @@ from database import init_db, get_order_by_short_number, mark_photo_ok, get_wait
 from mail_parser import check_all_emails
 
 async def handle_group_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not update.message:
+        return
+
     message = update.message
     chat_id = message.chat_id
 

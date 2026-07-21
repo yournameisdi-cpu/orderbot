@@ -15,7 +15,7 @@ EMAILS = [
     },
     {
         'email': 'corp-zibofud80154@yandex.ru',
-        'password': 'lxovwxfhmqzpcdev',
+        'password': 'idsqjftojgxnrgub',
         'imap_server': 'imap.yandex.ru',
         'folder': 'INBOX',
         'source': 'yandex',

@@ -5,7 +5,6 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 from config import BOT_TOKEN, CHECK_INTERVAL, POINTS
 from database import init_db, get_order_by_short_number, mark_photo_ok, get_expired_orders
-from mail_parser import check_all_emails
 
 async def handle_group_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message = update.message
